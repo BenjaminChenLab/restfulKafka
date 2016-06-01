@@ -11,7 +11,9 @@ To send and retrieve message to/from Kafka via restful APIs.
 4. edit docker-compose.yml: to modify AFKA_ADVERTISED_HOST_NAME and RESTFULKAFKA_KAFKA_HOST_NAME as your machine host name.
 5. execute 'docker-compose up', the three applications will be launched automatically.
 
+
 ##Restful APIs
+
 ###produce
 ####url
 /produce/{topic}
@@ -21,6 +23,7 @@ To send and retrieve message to/from Kafka via restful APIs.
   "value1",...
 ]
 }
+
 ###consume
 ####url
 /seek/{groupId}/{offset}
