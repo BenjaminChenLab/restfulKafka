@@ -2,7 +2,7 @@
 
 To send and retrieve message to/from Kafka via restful APIs.
 
-!important: This project is only a exercise.
+!important: This project is only an exercise.
 
 ##How to start servers
 1. change directory to where the pom.xml exists.
@@ -13,10 +13,24 @@ To send and retrieve message to/from Kafka via restful APIs.
 
 ##Restful APIs
 ###produce
----to be done 
+####url
+/produce/{topic}
+####payload
+{
+"messageValues":[
+  "value1",...
+]
+}
 ###consume
----to be done 
+####url
+/seek/{groupId}/{offset}
+####payload
+{
+"subscribeTopics":[
+  "topic1",...
+]
+}
 
 ##Note
-Because my personnal time was too limited, therefore, the rearch on Kafka has not been completed. The logics and the Kafka api usage are might be incorrect .
+Because my research on Kafka has not been completed, the logics and the Kafka api usage are might be incorrect .
 I have not test restful APIs yet, but the Kafka api does connect to Kafka server.
