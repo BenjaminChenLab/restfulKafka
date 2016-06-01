@@ -14,7 +14,8 @@ To send and retrieve message to/from Kafka via restful APIs.
 
 ##Restful APIs
 
-###produce
+
+###produce:
 ####url
 /produce/{topic}
 ####payload
@@ -23,6 +24,7 @@ To send and retrieve message to/from Kafka via restful APIs.
   "value1",...
 ]
 }
+
 
 ###consume
 ####url
