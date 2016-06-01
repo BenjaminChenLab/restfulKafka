@@ -22,7 +22,7 @@ public class ConsumerController {
 	@Setter
 	private Consumer consumer;
 
-	@RequestMapping(value = "/seek/{groupId}/{offset}", method = RequestMethod.PUT)
+	@RequestMapping(value = "/seek/{groupId}/{offset}", method = RequestMethod.POST)
 	public ConsumeMessage seekByOffset(@PathVariable String groupId, @PathVariable Long offset,
 			@RequestBody ConsumeQuery query) {
 		// TODO: validation
