@@ -26,7 +26,7 @@ To send and retrieve message to/from Kafka via restful APIs.
 }
 
 
-###consume
+###consume:
 ####url
 /seek/{groupId}/{offset}
 ####payload
