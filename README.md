@@ -37,5 +37,5 @@ To send and retrieve message to/from Kafka via restful APIs.
 }
 
 ##Note
-Because my research on Kafka has not been completed, the logics and the Kafka api usage are might be incorrect .
+This project is still under incubation, the logics and the Kafka api usage are might be incorrect .
 I have not test restful APIs yet, but the Kafka api does connect to Kafka server.
